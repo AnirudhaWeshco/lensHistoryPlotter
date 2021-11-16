@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Lense-Order'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_55FDE69AEC914F52B1C789D35A243380 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCA936E0877B47A9B79358ACF96D8334 }}
