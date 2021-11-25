@@ -497,16 +497,17 @@
 			$('#basic-datatables').on('click', 'tr', function(){
 			  var data = table.row($(this)).data();
 			  var newdata = data.customer_code;
-			  alert(newdata)
+			//   alert(newdata)
 			  localStorage.setItem("editdata", data.oci_no);
 			  if (newdata == "EX/0000438")
 			  {
-				window.location.href = "prescription_allice_optic"; 
-				alert("into if condition");
+				//window.location.href = "prescription_alliance_optic"; 
+				window.open('prescription_alliance_optic', "_blank")
+				// alert("into if condition");
 			  }
 			  else
-			  {window.location.href = "prescription";}
-			  
+			  //{window.location.href = "prescription";}
+			  window.open('prescription', "_blank")
 		   });
 			
 
